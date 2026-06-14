@@ -1,0 +1,20 @@
+Python Virtual Machine (PVM)
+//code loop to iterate byte code
+//run time engine
+//also known as python interpreter
+
+Byte code is not Machine code
+//python specific interpretation
+//cpython (standard implementation) , jython , Tron python , Stackless , pypy
+
+
+
+//we can write code in the shell but it wont save
+//(python3) enter in terminal for activating shell
+
+
+
+//if we add new functions or attributes in an imported file
+//we need to import it again to access that
+//or from importlib import reload
+// reload(importfilename)
