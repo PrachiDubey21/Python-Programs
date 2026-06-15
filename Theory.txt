@@ -18,3 +18,29 @@ Byte code is not Machine code
 //we need to import it again to access that
 //or from importlib import reload
 // reload(importfilename)
+
+
+
+//-------------------------------------------------------------------------------
+
+
+//Mutable -> can be changed 
+        -> list , set , dictionary , array , bytearray
+//Immutable -> can not be changed
+        -> int , gloat , boolean , string , tuples , bytes , frozen sets
+
+
+
+        //But it also works as an interpreter so
+
+username = "prachi"
+username = "hello"
+    //it will change
+
+x = 10
+y = x 
+x = 20
+      //but y will still be 10
+
+//so we dont change the value but creates a new variable and 
+points the reference to the new variable
