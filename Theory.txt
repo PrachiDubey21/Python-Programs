@@ -44,3 +44,17 @@ x = 20
 
 //so we dont change the value but creates a new variable and 
 points the reference to the new variable
+
+
+//----------------------------------------------------------------------------
+
+
+//what is the datatype of
+                     -> python variables
+                     -> memory reference in python?
+
+//----------------------------------------------------------------------------
+
+
+//if both(for example list) point to same refrence then 
+changes in one will reflect in both
