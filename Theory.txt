@@ -58,3 +58,103 @@ points the reference to the new variable
 
 //if both(for example list) point to same refrence then 
 changes in one will reflect in both
+
+
+//-------------------------------------------------------------------------
+
+str() is used to get a user-friendly and readable string representation 
+of an object. It is intended for end users and displays the object in 
+a clean and understandable format. For example, if a string contains 
+special characters like \n, str() interprets them and 
+shows the actual output.
+
+repr() is used to get the official or developer-oriented representation 
+of an object. It is mainly used for debugging and development purposes. 
+The output of repr() often includes additional details and escape 
+characters so that the actual contents of the object can be clearly 
+understood. In many cases, the output of repr() can be used to 
+recreate the object.
+
+print() is a function used to display information on the screen. 
+It does not return a string representation itself; instead, 
+it takes an object and prints its readable form. Internally,
+ print() usually uses the result of str() to display the object.
+
+
+
+//------------------------------------------------------------------------
+
+
+trunc()
+
+The trunc() function removes the decimal part of a number and returns 
+only the integer portion. It simply cuts off the digits after the 
+decimal point without considering whether they are large or small.
+
+Example:
+import math
+
+print(math.trunc(5.9))
+print(math.trunc(-5.9))
+
+Output:
+
+5
+-5
+
+Thus, trunc() always moves the number toward zero by discarding 
+the fractional part.
+
+-------------------------
+
+floor()
+
+The floor() function returns the greatest integer that is 
+less than or equal to the given number. In simple words, 
+it rounds the number downward to the nearest integer.
+
+Example:
+
+import math
+
+print(math.floor(5.9))
+print(math.floor(-5.9))
+
+Output:
+
+5
+-6
+
+For positive numbers, floor() removes the decimal part. 
+For negative numbers, it moves to the next smaller integer.
+
+-------------------------------------
+
+ceil()
+
+The ceil() function returns the smallest integer that is greater 
+than or equal to the given number. In simple words, 
+it rounds the number upward to the nearest integer.
+
+Example:
+
+import math
+
+print(math.ceil(5.1))
+print(math.ceil(-5.1))
+
+Output:
+
+6
+-5
+
+For positive numbers, it moves to the next greater integer. 
+For negative numbers, it moves toward zero.
+
+
+//--------------------------------------------------------------------------------
+
+{} -> denotes dictionary
+
+//-----------------------------------------------------------------------------
+
