@@ -158,3 +158,33 @@ For negative numbers, it moves toward zero.
 
 //-----------------------------------------------------------------------------
 
+
+
+Raw String in Python
+
+A raw string is a special type of string in which backslashes 
+(\) are treated as ordinary characters instead of escape characters. 
+It is created by placing the letter r or R before the string. 
+In a raw string, Python does not interpret escape sequences such 
+as \n (newline), \t (tab), or \\ (backslash). Instead, these sequences 
+are preserved exactly as they are written.
+
+Raw strings are widely used when working with file paths, 
+regular expressions, and other text that contains many backslashes. 
+They make the code easier to read and write because there is no need 
+to use additional backslashes to escape special characters. By treating 
+backslashes literally, raw strings help avoid errors that may occur due 
+to the unintended interpretation of escape sequences.
+
+Example:
+path = r"C:\Users\Prachi\Documents"
+print(path)
+
+Output:
+C:\Users\Prachi\Documents
+
+In this example, the backslashes are treated as normal characters 
+and are displayed exactly as written.
+
+
+//------------------------------------------------------------------------
