@@ -1,0 +1,31 @@
+
+
+Iteration tool   ----->    __next__     (next() next() next())
+       |                       ^
+       |   (iter())            |
+       |                       |
+       V                       |
+Iteration Objects    ----------
+
+
+-----------------------------------------------------------------------------
+
+
+//Iteration tools for files    (in integrated terminal)
+
+f = open('file.py')
+f.readline()                   //returns empty string after the file ends("")
+f.__next__()                   //returns exception after the file ends
+                                     (StopIteration exception)
+
+iter(f) is f    = true for files not for list
+
+----------------------------------------------------------------------------
+
+//Iteration tools for DataStructures
+
+myList = [1,2,3,4]
+I = iter(myList)
+I.__next__()
+
+//memory reference pe jo list iterator h woh hmesha pe hi point krega
