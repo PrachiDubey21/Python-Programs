@@ -6,10 +6,11 @@
 # calculate the sum of numbers
 def add(*args):
 
-    total = 0
-    for num in args:
-        total += num
-    return total
+    # total = 0
+    # for num in args:
+    #     total += num
+    # return total
+    return sum(args)
 
 
 result = add(10, 20, 30, 40, 50)
