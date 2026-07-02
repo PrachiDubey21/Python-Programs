@@ -33,6 +33,7 @@ Problem: Create an ElectricCar class that inherits from the Car class and has an
 Problem: Modify the Car class to encapsulate the brand attribute, making it private, and provide a getter method for it.
 </details>
 
+
 <details>
 <summary>
 5. Polymorphism

@@ -1,21 +1,30 @@
-# Class
+
+# Parent Class
 class Car:
 
-    # Constructor
     def __init__(self, brand, model):
-        self.__brand = brand             # Private attribute
+        self.brand = brand
         self.model = model
 
-    # Getter method
-    def get_brand(self):
-        return self.__brand
+    # Parent class method
+    def fuel_type(self):
+        return "Petrol or Diesel"
 
-# Object
+
+# Child Class
+class ElectricCar(Car):
+
+    def __init__(self, brand, model, battery_size):
+        super().__init__(brand, model)
+        self.battery_size = battery_size
+
+    # Overriding the parent class method
+    def fuel_type(self):
+        return "Electric Charge"
+
+
 car1 = Car("Toyota", "Fortuner")
+car2 = ElectricCar("Tesla", "Model 3", "75 kWh")
 
-
-# accessing private attribute using getter
-print("Brand:", car1.get_brand())
-
-# accessing public attribute
-print("Model:", car1.model)
+print(car1.fuel_type())
+print(car2.fuel_type())
