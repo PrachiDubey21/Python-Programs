@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Residental evil",
+        "time": "1.5 hrs"
+    },
+    {
+        "name": "Man Of Medan",
+        "time": "2 hrs"
+    },
+    {
+        "name": "House of Ashes",
+        "time": "3 hrs"
+    }
+]
